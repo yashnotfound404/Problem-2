@@ -20,10 +20,11 @@ body {
 
 /* Navbar list styling */
 .navbar ul {
-    display: flex;
+    display: inline-flex;
     list-style: none;
     margin: 0;
     padding: 0;
+    padding-right:30px;
 }
 
 /* Navbar list items */
@@ -41,4 +42,13 @@ body {
 /* Navbar links hover effect */
 .navbar ul li a:hover {
     text-decoration: none;
+}
+
+.butt{
+    height: 30px;
+    width: 93px;
+    background-color: yellow;
+    border-radius: 10px;
+    margin: auto 7px;
+    border: 2px solid black;
 }
