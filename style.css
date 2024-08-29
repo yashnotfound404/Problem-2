@@ -17,6 +17,20 @@ body {
     color: #ffffff;
     font-size: 1.5rem;
 }
+.navbar .titleflex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar img {
+    padding-right: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 5px;
+}
 
 /* Navbar list styling */
 .navbar ul {
@@ -24,7 +38,7 @@ body {
     list-style: none;
     margin: 0;
     padding: 0;
-    padding-right:30px;
+    padding-right: 30px;
 }
 
 /* Navbar list items */
@@ -44,7 +58,7 @@ body {
     text-decoration: none;
 }
 
-.butt{
+.butt {
     height: 30px;
     width: 93px;
     background-color: yellow;
